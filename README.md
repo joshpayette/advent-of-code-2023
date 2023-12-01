@@ -28,8 +28,7 @@ console.log(firstAnswer)
 and then in the terminal, let's say it's for Day 1, I would do:
 
 ```bash
-cd src/day-01
-node index.js
+npx ts-node ./src/day1/index.ts --no-output
 ```
 
 and observe the output. Be aware that you might run into infinite loops, and there are definitely problems that will not complete because they're designed to be too memory intensive. You'll probably have to kill a node process or two as you solve these challenges.
