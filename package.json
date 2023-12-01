@@ -11,6 +11,10 @@
   },
   "author": "Josh Payette",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshpayette/advent-of-code-2023.git"
+  },
   "devDependencies": {
     "@types/node": "^20.10.1",
     "eslint": "^8.29.0",
